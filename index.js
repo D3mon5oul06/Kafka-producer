@@ -24,7 +24,7 @@ app.get('/', (req, res, next) => {
 const run = async (username) => {
 
     await producer.connect()
-//    await producer.send()
+//    await producer.send()12345678
     await producer.send({
       topic: 'test',
       messages: [ 
